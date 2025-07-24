@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html><html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Анкетирование детей 3–7 лет</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-
-  <header class="bg-blue-600 text-white p-6">
+<body class="bg-gray-100 text-gray-800 font-sans">  <header class="bg-blue-600 text-white p-6">
     <h1 class="text-2xl font-bold">Результаты анкетирования детей 3–7 лет</h1>
     <p class="mt-2">Исследование наличия сидеропенического синдрома и кариеса</p>
-  </header>
-
-  <main class="p-6 max-w-4xl mx-auto">
+  </header>  <main class="p-6 max-w-4xl mx-auto">
     <section class="bg-white p-6 rounded-xl shadow-md mb-6">
       <h2 class="text-xl font-semibold mb-4">Общая информация</h2>
       <p>В исследовании участвовали 40 детей в возрасте от 3 до 7 лет:</p>
@@ -21,40 +16,64 @@
         <li>20 детей с сидеропеническим синдромом (СС)</li>
         <li>20 детей без СС</li>
       </ul>
-    </section>
+    </section><section class="bg-white p-6 rounded-xl shadow-md mb-6">
+  <h2 class="text-xl font-semibold mb-4">Наличие кариеса</h2>
+  <div class="grid grid-cols-2 gap-4">
+    <div>
+      <h3 class="font-medium mb-2">Дети с СС:</h3>
+      <ul class="list-disc list-inside">
+        <li>16 детей с кариесом</li>
+        <li>4 без кариеса</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-medium mb-2">Дети без СС:</h3>
+      <ul class="list-disc list-inside">
+        <li>10 детей с кариесом</li>
+        <li>10 без кариеса</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    <section class="bg-white p-6 rounded-xl shadow-md mb-6">
-      <h2 class="text-xl font-semibold mb-4">Наличие кариеса</h2>
-      <div class="grid grid-cols-2 gap-4">
-        <div>
-          <h3 class="font-medium mb-2">Дети с СС:</h3>
-          <ul class="list-disc list-inside">
-            <li>16 детей с кариесом</li>
-            <li>4 без кариеса</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-medium mb-2">Дети без СС:</h3>
-          <ul class="list-disc list-inside">
-            <li>10 детей с кариесом</li>
-            <li>10 без кариеса</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<section class="bg-white p-6 rounded-xl shadow-md mb-6">
+  <h2 class="text-xl font-semibold mb-4">Количество кариозных зубов</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <h3 class="font-medium mb-2">Пациенты с СС (12 человек):</h3>
+      <p>Количество кариозных зубов: 3, 4, 2, 2, 1, 1, 2, 4, 5, 1, 4, 5</p>
+      <ul class="list-disc list-inside mt-2">
+        <li>Среднее: 2.92</li>
+        <li>Медиана: 3</li>
+        <li>Минимум: 1</li>
+        <li>Максимум: 5</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-medium mb-2">Пациенты без СС (11 человек):</h3>
+      <p>Количество кариозных зубов: 5, 3, 2, 1, 2, 2, 3, 3, 4, 5, 4</p>
+      <ul class="list-disc list-inside mt-2">
+        <li>Среднее: 3.09</li>
+        <li>Медиана: 3</li>
+        <li>Минимум: 1</li>
+        <li>Максимум: 5</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    <section class="bg-white p-6 rounded-xl shadow-md mb-6">
-      <h2 class="text-xl font-semibold mb-4">Выводы</h2>
-      <p>
-        Согласно результатам опроса, у детей с сидеропеническим синдромом наблюдается более высокая частота кариеса
-        по сравнению с детьми без СС (80% против 50%).
-      </p>
-    </section>
-  </main>
+<section class="bg-white p-6 rounded-xl shadow-md mb-6">
+  <h2 class="text-xl font-semibold mb-4">Выводы</h2>
+  <p>
+    Согласно результатам опроса, у детей с сидеропеническим синдромом наблюдается более высокая частота кариеса
+    по сравнению с детьми без СС (80% против 50%).
+  </p>
+  <p class="mt-4">
+    При этом среднее количество кариозных зубов оказалось немного выше у детей без СС (3.09) по сравнению с детьми с СС (2.92), что может быть связано с небольшим объемом выборки. Для более точных выводов необходимо учитывать дополнительные факторы (возраст, пол, питание, гигиенические привычки).
+  </p>
+</section>
 
-  <footer class="bg-blue-600 text-white text-center p-4">
+  </main>  <footer class="bg-blue-600 text-white text-center p-4">
     <p>&copy; 2025 Анкетирование детей. Все права защищены.</p>
-  </footer>
-
-</body>
+  </footer></body>
 </html>
